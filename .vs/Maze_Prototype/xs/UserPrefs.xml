@@ -1,14 +1,20 @@
 ﻿<Properties StartupConfiguration="{1CC7A87D-6D07-D0C9-569F-F0F1634511FB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CoinCollect.cs">
     <Files>
       <File FileName="Assets/PlayerMovement.cs" Line="46" Column="58" />
       <File FileName="Assets/Scripts/FollowPlayer.cs" Line="15" Column="6" />
-      <File FileName=".gitignore" Line="3" Column="71" />
+      <File FileName="Assets/Scripts/CoinRotate.cs" Line="14" Column="2" />
+      <File FileName="Assets/CoinCollect.cs" Line="10" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Maze_Prototype" expanded="True" selected="True" />
+          <Node name="Maze_Prototype" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="CoinCollect.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

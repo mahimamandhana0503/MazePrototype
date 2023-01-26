@@ -46,19 +46,19 @@ public class PlayerMovement : MonoBehaviour
     //avoid player jumping further if we press spacebar in the air
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.name == "RedCoin")
+        if(collision.gameObject.tag == "RedCoin")
         {
             Destroy(collision.gameObject);
         }
 
-        if (collision.gameObject.name == "Ground1")
+        if (collision.gameObject.tag == "Ground")
             isGrounded = true;
     }
 
     //avoid player jumping further if we press spacebar in the air
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.name == "Ground1")
+        if (collision.gameObject.tag == "Ground")
             isGrounded = false;
     }
 }
