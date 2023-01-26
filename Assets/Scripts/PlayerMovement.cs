@@ -6,8 +6,9 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
 
     public float forwardForce = 1000f;
-    public float sideForce = 600f;
+    public float sideForce = 1000f;
     public float jumpForce = 5f;
+
 
     public bool isGrounded;
 
@@ -18,16 +19,20 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        rb.AddForce(-forwardForce * Time.deltaTime, 0, 0);
-
+       if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w")){
+            rb.AddForce(-forwardForce * Time.deltaTime, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s")){
+            rb.AddForce(forwardForce * Time.deltaTime, 0, 0);
+        }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey("d"))
         {
-            rb.AddForce(0, 0, sideForce * Time.deltaTime);
+            rb.AddForce(0, 0, forwardForce * Time.deltaTime);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey("a"))
         {
-            rb.AddForce(0, 0, -sideForce * Time.deltaTime);
+            rb.AddForce(0, 0, -forwardForce * Time.deltaTime);
         }
 
         if (isGrounded && Input.GetKey(KeyCode.Space))
@@ -39,8 +44,6 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-    
-
     }
 
     //avoid player jumping further if we press spacebar in the air
