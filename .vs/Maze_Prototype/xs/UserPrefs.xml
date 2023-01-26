@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{1CC7A87D-6D07-D0C9-569F-F0F1634511FB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FollowPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
     <Files>
-      <File FileName="Assets/PlayerMovement.cs" Line="35" Column="26" />
-      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="5" Column="5" />
+      <File FileName="Assets/PlayerMovement.cs" Line="46" Column="58" />
+      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="15" Column="6" />
+      <File FileName=".gitignore" Line="35" Column="9" />
+      <File FileName="Library/PackageCache/com.unity.services.core@1.6.0/Runtime/Core.Internal/Logging/CoreLogger.cs" Line="14" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Maze_Prototype" expanded="True">
+          <Node name="Maze_Prototype" expanded="True" selected="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="FollowPlayer.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
