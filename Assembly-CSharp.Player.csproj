@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/FollowPlayer.cs" />
     <Compile Include="Assets/Scripts/CoinRotate.cs" />
     <Compile Include="Assets/Scripts/CoinCollect.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

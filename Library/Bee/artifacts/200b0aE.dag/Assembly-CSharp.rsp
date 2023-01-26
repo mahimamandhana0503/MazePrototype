@@ -351,6 +351,7 @@
 "Assets/Scripts/CoinCollect.cs"
 "Assets/Scripts/CoinRotate.cs"
 "Assets/Scripts/FollowPlayer.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 
