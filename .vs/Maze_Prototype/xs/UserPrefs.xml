@@ -3,17 +3,12 @@
     <Files>
       <File FileName="Assets/PlayerMovement.cs" Line="46" Column="58" />
       <File FileName="Assets/Scripts/FollowPlayer.cs" Line="15" Column="6" />
-      <File FileName=".gitignore" Line="35" Column="9" />
-      <File FileName="Library/PackageCache/com.unity.services.core@1.6.0/Runtime/Core.Internal/Logging/CoreLogger.cs" Line="14" Column="28" />
+      <File FileName=".gitignore" Line="3" Column="71" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Maze_Prototype" expanded="True" selected="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Maze_Prototype" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
