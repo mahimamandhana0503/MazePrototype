@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadColoredGrounds()
     {
+      
         redGround.SetActive(true);
         blueGround.SetActive(true);
     }
